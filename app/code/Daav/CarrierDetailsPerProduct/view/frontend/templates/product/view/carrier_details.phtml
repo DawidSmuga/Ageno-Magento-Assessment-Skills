@@ -1,0 +1,15 @@
+<?php
+    $carriers = $block->getShippingMethods();
+
+    if (!empty($carriers)) {
+
+        echo '<div>
+                <h3>Dostępne opcje doręczenia:</h3>
+            </div>
+            <ul>';
+
+        foreach ($carriers as $carrier) {
+            echo '<li>' . $carrier['title'] . ' - ' . $carrier['price'] . '</li>';
+        }
+        echo '</ul>';
+    }

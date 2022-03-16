@@ -1,0 +1,16 @@
+{
+  "name": "daav/carrierdetailsperproduct",
+  "description": "Displaying details about carrier on each product page.",
+  "type": "magento2-module",
+  "author": "Dawid Smuga <dawidsmuga@icloud.com",
+  "version": "1.0.0",
+  "minimum-stability": "dev",
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Daav\\CarrierDetailsPerProduct\\": ""
+    }
+  }
+}
